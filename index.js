@@ -47,11 +47,7 @@ module.exports = function(opts, callback) {
     vb[2] = box[2]-box[0];
     vb[3] = box[3]-box[1];
 
-    out = [`<rect x='${vb[0]}' y='${vb[1]}' width='${vb[2]}' height='${vb[3]}' />`].concat(out);
-
-    var s = `<svg viewBox='${vb.join(' ')}' xmlns='http://www.w3.org/2000/svg'>${out.join('\n')}</svg>`;
-
-    callback(null, s);
+    callback(null, `<svg viewBox='${vb.join(' ')}' xmlns='http://www.w3.org/2000/svg'>${out.join('\n')}</svg>`);
   });
 }
 
