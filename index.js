@@ -13,7 +13,8 @@ module.exports = function(opts, callback) {
     }, m);
   }, {});
 
-  tris.forEach(t => {
+  tris.forEach((t, i) => {
+    t.idx = i;
     t.done = true;
     t.points.forEach(p => {
       index[p].filter(tt => t.sharesSide(tt)).forEach(tt => {
@@ -38,7 +39,7 @@ module.exports = function(opts, callback) {
       for (var i=0; i<nc; i++) {
         stack.push({s: sc[i].draw(), v: vc[i].draw() });
       }
-      out.push(`<polygon id='${n.s.id}' fill='${n.s.getColor(img)}' points='${n.v.edge.join(' ')}'/>`);
+      out.push(`<polygon id='${n.s.idx}' fill='${n.s.getColor(img)}' points='${n.v.edge.join(' ')}'/>`);
     }
 
     var box = visTri.getBox();
