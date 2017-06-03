@@ -4,7 +4,7 @@
 
 ## Usage
 
-```
+```js
 var equalRepo = require('equilateral-reproduction');
 
 var imgFilePath = './input.jpg';
