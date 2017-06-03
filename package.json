@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "get-pixels": "^3.3.0",
+    "point-in-big-polygon": "^2.0.0"
+  }
+}
