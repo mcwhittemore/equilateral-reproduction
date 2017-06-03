@@ -33,3 +33,7 @@ Equilateral Reporduction takes two arguments. The first is an options object, th
 - start: optional, defaults to zero. This is the triangle to start the reproduction with.
 
 While `triangles` MUST not have points that extend past the edges of the provided `img`.
+
+## [Example Source Image](https://www.instagram.com/p/BU2FCbXFOoG/?taken-by=bobbi.jo.brooks)
+
+![](./test/input.jpg)
