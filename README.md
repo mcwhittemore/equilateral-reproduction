@@ -1,6 +1,6 @@
 # Equilateral Reproduction
 
-![](./test/result.svg)
+<img src="./show.png" />
 
 ## Usage
 
