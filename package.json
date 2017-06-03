@@ -2,5 +2,31 @@
   "dependencies": {
     "get-pixels": "^3.3.0",
     "point-in-big-polygon": "^2.0.0"
-  }
+  },
+  "name": "equilateral-reproduction",
+  "description": "<img src=\"./show.png\" />",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcwhittemore/equilateral-reproduction.git"
+  },
+  "keywords": [
+    "art",
+    "triangles",
+    "generated"
+  ],
+  "author": "Matthew Chase Whittemore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcwhittemore/equilateral-reproduction/issues"
+  },
+  "homepage": "https://github.com/mcwhittemore/equilateral-reproduction#readme"
 }
